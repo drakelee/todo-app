@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import Button from '@material-ui/core/es/Button/Button'
-import Input from '@material-ui/core/es/Input/Input'
+import Button from '@material-ui/core/Button/Button'
+import Input from '@material-ui/core/Input/Input'
 
 class TodoCreate extends Component {
     state = {

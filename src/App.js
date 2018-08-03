@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './App.css'
-import TodoCreate from './Todo/containers/TodoCreate'
+import TodoCreate from './Todo/components/TodoCreate'
 import NavBarContainer from './Nav/containers/NavBarContainer'
 
 class App extends Component {

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoCreate/> renders correctly 1`] = `
+<form>
+  <div
+    className="MuiInput-root-1 MuiInput-underline-5"
+  >
+    <input
+      aria-invalid={undefined}
+      autoComplete={undefined}
+      autoFocus={undefined}
+      className="MuiInput-input-9"
+      defaultValue={undefined}
+      disabled={undefined}
+      id="title"
+      name={undefined}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={undefined}
+      onKeyUp={undefined}
+      placeholder="Todo Title"
+      readOnly={undefined}
+      required={undefined}
+      rows={undefined}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    className="MuiButtonBase-root-38 MuiButton-root-14 MuiButton-text-16 MuiButton-flat-19"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-15"
+    >
+      <div>
+        Add Todo
+      </div>
+    </span>
+    <span
+      className="MuiTouchRipple-root-41"
+    />
+  </button>
+</form>
+`;

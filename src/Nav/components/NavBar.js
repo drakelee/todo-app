@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import AppBar from '@material-ui/core/es/AppBar/AppBar'
-import Toolbar from '@material-ui/core/es/Toolbar/Toolbar'
-import Typography from '@material-ui/core/es/Typography/Typography'
-import IconButton from '@material-ui/core/es/IconButton/IconButton'
+import AppBar from '@material-ui/core/AppBar/AppBar'
+import Toolbar from '@material-ui/core/Toolbar/Toolbar'
+import Typography from '@material-ui/core/Typography/Typography'
+import IconButton from '@material-ui/core/IconButton/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
 
 class NavBar extends Component {
