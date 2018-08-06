@@ -8,7 +8,6 @@ class NavBarContainer extends Component {
 
         return (
             <NavBar
-                styles={styles}
                 title={title}
                 {...this.props}
             />
@@ -16,16 +15,11 @@ class NavBarContainer extends Component {
     }
 }
 
+const DRAWER_WIDTH = 240
 const styles = {
-    root: {
-        flexGrow: 1
-    },
-    flex: {
-        flexGrow: 1
-    },
-    menuBotton: {
-        marginLeft: -12,
-        marginRight: 20
+    appBar: {
+        width: `calc(100% - ${DRAWER_WIDTH}px)`,
+        marginLeft: DRAWER_WIDTH
     }
 }
 
